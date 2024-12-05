@@ -1,0 +1,90 @@
+/* General App Styling */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #f6d365, #fda085);
+  color: #333;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+  color: #ffffff;
+  font-size: 2.5rem;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* Container Styling */
+.container {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Button Styling */
+button {
+  padding: 10px 20px;
+  margin: 10px 0;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+button:disabled {
+  background-color: #d3d3d3;
+  cursor: not-allowed;
+}
+
+/* Question Card Styling */
+.question-card {
+  margin-bottom: 20px;
+}
+
+.question-card h2 {
+  font-size: 1.5rem;
+  color: #444;
+  margin-bottom: 20px;
+}
+
+.answer-button {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  font-size: 1rem;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.answer-button:hover {
+  background-color: #e0e0e0;
+  transform: translateY(-2px);
+}
+
+.answer-button:disabled {
+  background-color: #d3d3d3;
+  cursor: not-allowed;
+}
+
+/* Score Display Styling */
+.score {
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 10px;
+  text-align: center;
+}
